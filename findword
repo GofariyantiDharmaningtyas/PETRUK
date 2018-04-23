@@ -125,7 +125,7 @@ for(int hn=0;hn<10;hn++){
                         ha[n]=1; 
                         goto next; 
                    }
-                   }
+                  }
                 hsl[n]=0;
                 y=0;
            }
