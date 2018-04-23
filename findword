@@ -16,16 +16,16 @@ int main(){
 
 for(int i = 0; i<10; i++){
         for(int j=0; j<10; j++) 
-        cout<<*(*(K+i)+j)<<"  ";cout<<endl;
+        cout<<*(*(K+i)+j)<<"  ";
+		cout<<endl;
     }
-    int jml,hsl[jml], ha[jml], p[jml] , dia;
+     int jml,hsl[jml], ha[jml], p[jml] , dia;
     cout<<endl;
     cout<<"Jumlah Kata yang akan dicari : ";cin>>jml;
     char kata[jml][10];
 }
-	cin.ignore();
+
+cin.ignore();
     for(int i=1; i<jml; i++){
         cout<<i<<" ";
-        cin.getline(kata[i], 10);
-        p[i]=strlen(kata[i]);   
-    }
+   
