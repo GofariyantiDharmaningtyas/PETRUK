@@ -107,3 +107,32 @@ for(int hn=0;hn<10;hn++){
                 y=0;
             }
         }
+for(int hr=14;hr>=0;hr--){
+            for(int i=0; i<=(10-pk); i++) {
+            int dia=-1;
+                for(int j=i; j<=i+(pk-1); j++) {
+                    ++dia;
+                    if(*(*(K+j)+hr-dia) == kata[n][y]) ada[y] = 1;
+                    else ada[y] = 0;y++;
+                }
+                for(int t=0; t<pk; t++) {
+                    if(ada[t]==1) {
+                        result = 1;
+                        hsl[n]+=result;
+                    }
+                else {
+                        result = 0;
+                        break;
+                    }
+                if(hsl[n]==pk) { 
+                        ha[n]=1; 
+                        goto next; 
+                    }
+                }
+                hsl[n]=0;
+                y=0;
+            }
+        }
+        next:
+        y=0;
+    }
