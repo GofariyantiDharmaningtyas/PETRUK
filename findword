@@ -2,4 +2,16 @@
 #include <cstring>
 using namespace std;
 int main(){
+char A[] = {'N','A','U','R','A','H','O','K','E','M'};
+    char B[] = {'A','I','P','U','Y','O','L','O','A','E'};
+    char C[] = {'A','L','N','O','T','H','I','S','G','I'};
+    char D[] = {'Y','A','O','G','A','U','A','Y','O','K'};
+    char E[] = {'A','L','O','H','G','O','H','Y','O','A'};
+    char F[] = {'B','W','I','N','T','E','R','O','O','R'};
+    char G[] = {'N','A','B','L','O','O','D','B','T','T'};
+    char H[] = {'Y','O','L','O','O','L','O','Y','G','A'};
+    char I[] = {'A','D','A','I','T','U','S','A','J','A'};
+    char J[] = {'Q','W','N','O','N','H','S','I','N','G'};
+    char* K[] = {A,B,C,D,E,F,G,H,I,J};
+
 }
