@@ -135,7 +135,7 @@ for(int hr=14;hr>=0;hr--){
        }
         next:
         y=0;
-    }
+   }
      for(int i=0;i<jml;i++){
         if(ha[i]==1){
         cout<<i+1<<" ada"<<endl;
