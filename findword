@@ -68,8 +68,7 @@ for(int g=0;g<10;g++){
                     if(ada[t]==1){
                         result = 1;
                         hsl[n]+=result;
-                    }
-                else{
+                   }else{
                 result = 0;break;
                     }
                     if(hsl[n]==pk) { 
@@ -93,8 +92,7 @@ for(int hn=0;hn<10;hn++){
                     if(ada[t]==1){
                         result = 1;
                         hsl[n]+=result;
-                    }
-                    else{
+                    }else{
                         result = 0;
                         break;
                     }
@@ -119,8 +117,7 @@ for(int hr=14;hr>=0;hr--){
                     if(ada[t]==1) {
                         result = 1;
                         hsl[n]+=result;
-                     }
-                else {
+                     }else {
                         result = 0;
                         break;
                     }
