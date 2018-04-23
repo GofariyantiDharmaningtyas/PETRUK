@@ -105,7 +105,7 @@ for(int hn=0;hn<10;hn++){
                 y=0;
             }
         }
-for(int hr=14;hr>=0;hr--){
+	for(int hr=14;hr>=0;hr--){
             for(int i=0; i<=(10-pk); i++) {
             int dia=-1;
                 for(int j=i; j<=i+(pk-1); j++) {
