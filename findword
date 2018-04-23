@@ -119,7 +119,7 @@ for(int hr=14;hr>=0;hr--){
                     if(ada[t]==1) {
                         result = 1;
                         hsl[n]+=result;
-                    }
+                     }
                 else {
                         result = 0;
                         break;
@@ -127,12 +127,12 @@ for(int hr=14;hr>=0;hr--){
                 if(hsl[n]==pk) { 
                         ha[n]=1; 
                         goto next; 
-                    }
-                }
+                   }
+               }
                 hsl[n]=0;
                 y=0;
-            }
-        }
+           }
+       }
         next:
         y=0;
     }
