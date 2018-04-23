@@ -138,9 +138,9 @@ for(int hr=14;hr>=0;hr--){
     }
      for(int i=0;i<jml;i++){
         if(ha[i]==1){
-        cout<<i+1<<" ADA"<<endl;
+        cout<<i+1<<" ada"<<endl;
     }else {
-	cout<<i+1<<" TIDAK ADA"<<endl;
+	cout<<i+1<<" tidak ada"<<endl;
     }
     return 0;
 }
