@@ -30,7 +30,7 @@ cin.ignore();
 	cin.getline(kata[i], 10);
         p[i]=strlen(kata[i]);   
     }
-for(int n=0; n<jml; n++) {
+    for(int n=0; n<jml; n++) {
         hsl[n]=0;
         int pk = p[n], y=0;
         bool ada[pk], result;
