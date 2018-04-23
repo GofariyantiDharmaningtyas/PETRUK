@@ -2,7 +2,7 @@
 #include <cstring>
 using namespace std;
 int main(){
-char A[] = {'N','A','U','R','A','H','O','K','E','M'};
+    char A[] = {'N','A','U','R','A','H','O','K','E','M'};
     char B[] = {'A','I','P','U','Y','O','L','O','A','E'};
     char C[] = {'A','L','N','O','T','H','I','S','G','I'};
     char D[] = {'Y','A','O','G','A','U','A','Y','O','K'};
