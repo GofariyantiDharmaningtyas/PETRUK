@@ -14,4 +14,13 @@ int main(){
     char J[] = {'Q','W','N','O','N','H','S','I','N','G'};
     char* K[] = {A,B,C,D,E,F,G,H,I,J};
 
+for(int i = 0; i<10; i++){
+        for(int j=0; j<10; j++) 
+        cout<<*(*(K+i)+j)<<"  ";
+		cout<<endl;
+    }
+     int jml,hsl[jml], ha[jml], p[jml] , dia;
+    cout<<endl;
+    cout<<"Jumlah Kata yang akan dicari : ";cin>>jml;
+    char kata[jml][10];
 }
