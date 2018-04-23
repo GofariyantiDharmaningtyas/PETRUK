@@ -40,3 +40,19 @@ for(int n=0; n<jml; n++) {
                     if(*(*(K+s)+j) == kata[n][y]) ada[y] = 1;
                     else ada[y] = 0;y++;
                 }
+		for(int l=0; l<pk;l++){
+                    if(ada[l]==1) {
+                        result = 1;
+                        hsl[n]+=result;
+                    }
+                else {
+                    result = 0;
+                    break;
+                    }
+                    if(hsl[n]==pk) { 
+                        ha[n]=1; 
+                        goto next; 
+                    }}
+                hsl[n]=0;
+                y=0;
+            }}
