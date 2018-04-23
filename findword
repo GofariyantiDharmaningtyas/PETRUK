@@ -25,7 +25,5 @@ for(int i = 0; i<10; i++){
     char kata[jml][10];
 }
 
-cin.ignore();
-    for(int i=1; i<jml; i++){
-        cout<<i<<" ";
+
    
